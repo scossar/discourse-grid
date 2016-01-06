@@ -1,0 +1,4 @@
+plugins:
+  grid_enabled:
+    defaults: true
+    client: true
