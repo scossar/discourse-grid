@@ -1,4 +1,7 @@
 plugins:
   grid_enabled:
-    defaults: true
+    default: true
+    client: true
+  grid_remove_line_breaks:
+    default: false
     client: true
