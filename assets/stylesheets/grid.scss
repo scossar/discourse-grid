@@ -2,7 +2,8 @@ $basic-grid-gutter: 16px;
 $basic-grid-breakpoint: 600px;
 
 @mixin grid-block($gutter-width) {
-  margin: 0 $gutter-width / 2;
+  // This might cause problems!
+  margin: 0 $gutter-width / 2 !important;
   float: left;
 }
 
