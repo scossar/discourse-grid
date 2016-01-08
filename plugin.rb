@@ -1,6 +1,6 @@
 # name: discourse-grid
 # about: A simple grid system to be used in Discourse posts
-# version: 0.1
+# version: 0.1.1
 # authors: scossar
 # url: https://github.com/scossar/discourse-grid
 
