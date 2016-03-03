@@ -2,8 +2,7 @@ $basic-grid-gutter: 16px;
 $basic-grid-breakpoint: 600px;
 
 @mixin grid-block($gutter-width) {
-  // This might cause problems!
-  margin: 0 $gutter-width / 2 !important;
+  margin: 0 $gutter-width / 2;
   float: left;
 }
 
@@ -21,7 +20,8 @@ $basic-grid-breakpoint: 600px;
 .two-thirds,
 .one-quarter,
 .three-quarters,
-.half {
+.half,
+.full {
   @include grid-block($basic-grid-gutter);
   width: calc(100% - #{$basic-grid-gutter});
 }
@@ -47,14 +47,29 @@ $basic-grid-breakpoint: 600px;
   .half {
     width: calc(50% - #{$basic-grid-gutter});
   }
+
+  .full {
+    width: calc(100% - #{$basic-grid-gutter});
+  }
 }
 
+// divs and figures can be centered by wrapping them in their own grid row.
+// '<div class="grid-row"><div class="half centered"><!-- centered content --></div></div>'
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+// make images the full width of their containing element and give them a top
+// and bottom margin of 1em.
 figure,
 .one-third,
 .two-thirds,
 .one-quarter,
 .three-quarters,
-.half {
+.half,
+.full {
   img {
     margin-top: 1em;
     margin-bottom: 1em;
