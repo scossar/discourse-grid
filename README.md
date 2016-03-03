@@ -108,5 +108,5 @@ to another, try adding or removing a line break. With a bit of practice you will
 
 ##Responsive breakpoint
 
-At 600px browser window width all grid elements revert to having a with of 100% of the post area.
+At < 600px window width, all grid elements revert to having a width of 100% of the post area.
 
