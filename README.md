@@ -96,8 +96,12 @@ The second is to select the 'traditional markdown linebreaks' setting in the Dis
 admin section. This setting requires two trailing spaces for a linebreak. This allows
 you to write readable markup that displays properly on the grid.
 
+![alt tag](https://cloud.githubusercontent.com/assets/2975917/13513101/95b71ff4-e153-11e5-9583-e9db394f39d2.png)
+
 The third option is to select the discourse-grid plugin option 'grid remove line breaks'.
 This option will search through all `.grid-row` divs and remove all `<br>` tags.
+
+![alt tag](https://cloud.githubusercontent.com/assets/2975917/13513095/8eea4764-e153-11e5-8ef8-b483a0d53788.png)
  
 If the vertical layout of your post seems wrong, with one element pushed down compared
 to another, try adding or removing a line break. With a bit of practice you will see how it works.
