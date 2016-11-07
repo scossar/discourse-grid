@@ -1,3 +1,5 @@
+**NOTE: I am not currently supporting this plugin. It may not be working in with the current version of Discourse.**
+
 # Discourse Grid
 
 This plugin allows the user to add a simple responsive grid to a Discourse post.
